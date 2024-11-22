@@ -1,0 +1,117 @@
+html {
+    font-size: 62.5%;
+    /* font-family: 'Poppins', sans-serif; */
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #f2f3f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 2rem 0 0;
+}
+.header {
+    padding: 10px 60px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 1024px;
+    /* border-radius: 20px; */
+    box-shadow: 0px 0px 8px 1px rgba(92, 92, 92, 0.2);
+}
+span {
+    display: block;
+    padding: 0.5rem;
+}
+.header-tt {
+    margin-top: 1.2rem;
+    text-align: center;
+}
+.header-tt-bo {
+    font-size: 3rem;
+}
+.header-tt-truong {
+    font-size: 2.7rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.header-tt-hp {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.header-info {
+    margin: 1.7rem 0;
+    font-size: 2rem;
+}
+.header-info-text {
+    float: left;
+    width: 50%;
+    color: #1a2b5f;
+    font-weight: bold;
+    padding: 1.2rem 0 1.2rem 7rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.wrapper {
+
+}
+.wrapper-heading {
+    font-size: 2.2rem;
+    font-weight: 900;
+    text-align: center;
+}
+.wrapper-content {
+    margin: 2rem 0;
+    font-size: 1.8rem;
+}
+.question {
+    font-weight: 600;
+    font-size: 2.1rem;
+}
+.answers {
+    margin-bottom: 2.1rem;
+    letter-spacing: .1rem;
+}
+.answers label{
+    display: block;
+    line-height: 2rem;
+    letter-spacing: normal;
+    font-size: 1.9rem;
+}
+
+
+
+/* Nút nộp bài, và thời gian còn lại */
+#submit {
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+}
+#count_down {
+    z-index: 999;
+    position: fixed;
+    bottom: 3%;
+    right: 50px;
+    padding: 7px 10px;
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+}
+#count_down span {
+    display: inline;
+}
